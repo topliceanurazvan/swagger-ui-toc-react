@@ -1,0 +1,30 @@
+{
+  "name": "swagger-ui-toc-react",
+  "version": "0.0.1",
+  "description": "SwaggerUI plugin for showing a table of contents",
+  "scripts": {
+    "rollup": "rollup -c"
+  },
+  "author": "Razvan Topliceanu",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^21.0.2",
+    "@rollup/plugin-node-resolve": "^13.1.3",
+    "@rollup/plugin-typescript": "^8.3.1",
+    "@types/react": "^17.0.39",
+    "@types/styled-components": "^5.1.24",
+    "antd": "^4.19.1",
+    "react": "^17.0.2",
+    "rollup": "^2.70.0",
+    "rollup-plugin-dts": "^4.2.0",
+    "rollup-plugin-postcss": "^4.0.2",
+    "styled-components": "^5.3.3",
+    "typescript": "^4.6.2"
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts"
+}
